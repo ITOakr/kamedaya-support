@@ -1,0 +1,29 @@
+:root {
+  --bg: #F5F0E8; --card: #FFFDF9; --ink: #2A1E16; --muted: #75685D; --line: #E4DACD; --accent: #7B4A2A;
+}
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: dark; --bg: #16120F; --card: #231D18; --ink: #F2EAE0; --muted: #B3A595; --line: #3A3129; --accent: #D9A877; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 32px 16px 56px; background: var(--bg); color: var(--ink);
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif;
+  font-size: 16px; line-height: 1.85;
+}
+main { max-width: 720px; margin: 0 auto; }
+header { display: flex; align-items: center; gap: 10px; color: var(--accent); font-weight: 700; margin-bottom: 8px; }
+header svg { width: 26px; height: 26px; }
+h1 { font-size: 26px; line-height: 1.4; margin: 8px 0 4px; }
+h2 { font-size: 19px; margin: 32px 0 8px; color: var(--accent); }
+p, ul { margin: 8px 0; }
+.updated { color: var(--muted); font-size: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px 18px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+tr:last-child td { border-bottom: none; }
+th { color: var(--muted); font-size: 13px; }
+.table-wrap { overflow-x: auto; }
+dt { font-weight: 700; margin-top: 16px; }
+dd { margin: 4px 0 0; }
+a { color: var(--accent); }
+nav { margin-top: 40px; font-size: 14px; color: var(--muted); display: flex; gap: 16px; flex-wrap: wrap; }
