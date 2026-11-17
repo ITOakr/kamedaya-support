@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>KAMEDA-YA 使い方</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><g transform="rotate(35 12 12)" fill="currentColor"><path d="M11.3 2.05 A7.2 10 0 0 0 11.3 21.95 C13.9 17.5 8.7 6.5 11.3 2.05 Z"/><path d="M12.7 2.05 A7.2 10 0 0 1 12.7 21.95 C15.3 17.5 10.1 6.5 12.7 2.05 Z"/></g></svg>
+  KAMEDA-YA
+</header>
+<h1>使い方</h1>
+<p>お店のレシピ・マニュアル・コーヒーの知識を、スマホで見たり作ったりできるアプリの説明書です。</p>
+<p class="updated">画面の写真は、お試し用のデータで撮ったものです。</p>
+
+<nav class="toc" aria-label="もくじ">
+  <a href="#start">はじめる</a>
+  <a href="#tabs">画面の見かた</a>
+  <a href="#find">レシピを探す</a>
+  <a href="#view">レシピを見る</a>
+  <a href="#cook">調理モード</a>
+  <a href="#make">レシピを作る・直す</a>
+  <a href="#manual">マニュアル</a>
+  <a href="#coffee">コーヒー</a>
+  <a href="#manage">管理</a>
+  <a href="#tips">便利な使い方</a>
+  <a href="#trouble">困ったとき</a>
+</nav>
+
+<h2 id="start">はじめる</h2>
+<div class="card">
+<p><strong>用意するもの</strong></p>
+<ul>
+  <li>iPhone（iOS 16 以上。iPhone 8 から使えます）</li>
+  <li>iCloud へのサインイン（いつもの Apple ID でOK）</li>
+  <li>Wi-Fi か電波がつながる場所</li>
+</ul>
+</div>
+
+<ol class="steps">
+  <li>
+    <div class="step-text">
+      <h3>アプリを入れる</h3>
+      <p>アプリのリンクは、お店のスタッフの LINE グループで送ります。リンクを iPhone で開いて、App Store の「入手」を押してください。無料です。</p>
+      <p class="note">App Store で検索しても出てきません。リンクから入れてください。</p>
+    </div>
+  </li>
+  <li>
+    <div class="step-text">
+      <h3>iCloud にサインインしているか確かめる</h3>
+      <p>アプリを開いて「iCloud にサインインしてください」と出たら、iPhone の「設定」アプリのいちばん上から iCloud にサインインして、もう一度アプリを開きます。</p>
+      <p>この画面が出なければ、次へ進んでください。</p>
+    </div>
+    <img class="shot" src="images/start-icloud.jpg" alt="「iCloud にサインインしてください」と出ている画面" loading="lazy">
+  </li>
+  <li>
+    <div class="step-text">
+      <h3>ニックネームを入れて申請する</h3>
+      <p>お店で呼ばれている名前を入れて「利用を申請する」を押します。</p>
+      <p class="note">本名（名字と名前）は入れないでください。10文字まで、あとから直せます。レシピを保存したとき「最後に保存した人」として出ます。</p>
+    </div>
+    <img class="shot" src="images/start-request.jpg" alt="ニックネームを入れる欄と「利用を申請する」ボタン" loading="lazy">
+  </li>
+  <li>
+    <div class="step-text">
+      <h3>許可を待つ</h3>
+      <p>「申請しました」と出たら、管理者（お店でアプリを管理しているスタッフ）の許可を待ちます。許可されると、自動でレシピの画面に変わります。</p>
+      <p>なかなか変わらないときは「許可されたか確かめる」を押してください。</p>
+    </div>
+    <img class="shot" src="images/start-pending.jpg" alt="「申請しました」と、申請したニックネームが出ている画面" loading="lazy">
+  </li>
+</ol>
+
+<div class="card">
+<p><strong>「作れる人」と「見るだけの人」</strong></p>
+<p>許可するときに、管理者がどちらかを決めます。「見るだけの人」には、作る・直す・消すボタンが出ません。作りたくなったら管理者に伝えてください。</p>
+</div>
+
+<h2 id="tabs">画面の見かた</h2>
+<p>いちばん下のタブで切り替えます。</p>
+<div class="card">
+<div class="table-wrap">
+<table class="tabs">
+  <tr><th>タブ</th><th>できること</th></tr>
+  <tr><td>レシピ</td><td>メニューのレシピを探す・見る・作る</td></tr>
+  <tr><td>マニュアル</td><td>立ち上げ・営業中・締めの作業の手順を見る・作る</td></tr>
+  <tr><td>コーヒー</td><td>淹れ方・豆・基礎知識を見る</td></tr>
+  <tr><td>管理</td><td>下書き・アーカイブ・ゴミ箱・カテゴリの整理、ニックネームの変更、要望の送信</td></tr>
+</table>
+</div>
+</div>
+
+<h2 id="find">レシピを探す</h2>
+<div class="feature">
+  <div class="step-text">
+    <p>レシピはカテゴリ（ドリンク・ランチメニュー・パン・おやつなど）ごとに並んでいます。</p>
+    <ul>
+      <li><strong>上の検索欄</strong>にメニュー名か材料名を入れると、すぐに絞り込めます。ひらがな・カタカナ、全角・半角の違いは気にしなくて大丈夫です。</li>
+      <li><strong>カテゴリのボタン</strong>（「ドリンク」など）を押すと、そのカテゴリだけになります。</li>
+      <li><strong>「★お気に入り」</strong>を押すと、お気に入りに入れたレシピだけになります。</li>
+      <li>右上の <strong>□ が4つのボタン</strong>で、写真を大きく並べる表示に切り替えられます。</li>
+      <li>一覧を<strong>下に引っ張る</strong>と、最新の内容を読み込みます。</li>
+    </ul>
+  </div>
+  <div class="shots">
+    <img class="shot" src="images/recipes.jpg" alt="カテゴリごとに並んだレシピの一覧" loading="lazy">
+    <img class="shot" src="images/search.jpg" alt="検索欄に「ラテ」と入れて、カフェラテが出ている画面" loading="lazy">
+  </div>
+</div>
+
+<h2 id="view">レシピを見る</h2>
+<div class="feature">
+  <div class="step-text">
+    <ul>
+      <li><strong>材料の倍率</strong>: ×1/2・×1・×1.5・×2 を押すと、分量が計算されて出ます。下の小さい字の「もと」が、元の分量です。</li>
+      <li><strong>☆ のボタン</strong>を押すと、お気に入りに入ります。お気に入りは自分だけのもので、ほかの人には見えません。</li>
+      <li>手順の注釈（電球のマーク）に、気をつけることが書いてあります。</li>
+      <li>レシピを開いている間は、画面が暗くなりません。</li>
+      <li>いちばん下に、最後に保存した人と日時が出ます。</li>
+    </ul>
+  </div>
+  <div class="shots">
+    <img class="shot" src="images/detail.jpg" alt="ナポリタンのレシピ。倍率 ×2 で分量が2倍になっている" loading="lazy">
+  </div>
+</div>
+
+<h2 id="cook">調理モード</h2>
+<div class="feature">
+  <div class="step-text">
+    <p>手順の見出しの下の「調理モードで見る」を押すと、手順が1つずつ大きく出ます。作りながら見るときに便利です。</p>
+    <ul>
+      <li>左右にスワイプするか、「前へ」「次へ」で進みます。</li>
+      <li>右上の「材料」で、材料を下半分に出せます（選んでいる倍率のまま）。</li>
+      <li><strong>手順の中の時間</strong>（⏱ と下線の付いた「15分」など）を押すと、タイマーが動きます。通知を許可しておくと、アプリを閉じていても時間になったら知らせます。</li>
+    </ul>
+    <p class="note">手順の文の中の分量は、倍率を変えても ×1 のままです。分量は材料のほうを見てください。</p>
+  </div>
+  <div class="shots">
+    <img class="shot" src="images/cooking.jpg" alt="調理モードで手順1が大きく出ている画面" loading="lazy">
+    <img class="shot" src="images/timer.jpg" alt="手順の中の「15分」に下線とタイマーのマークが付いている画面" loading="lazy">
+  </div>
+</div>
+
+<h2 id="make">レシピを作る・直す</h2>
+<p class="updated">「作れる人」だけができます。</p>
+<div class="feature">
+  <div class="step-text">
+    <p><strong>新しく作る</strong>: レシピの一覧の右上の「＋」を押します。</p>
+    <ul>
+      <li><strong>写真から読み取る</strong>: 紙のレシピを撮ると、文字を読み取って材料・手順の欄に入れます。</li>
+      <li><strong>完成写真を追加</strong>: その場で撮るか、写真アプリから選びます。手順ごとに写真を付けることもできます（手順の横のカメラのマーク）。人の顔が写らないようにしてください。</li>
+      <li><strong>材料名</strong>は、入れ始めるとよく使う名前が候補に出ます。分量は「100g」「大さじ1/2」「適量」のように自由に書けます。数字を入れておくと、倍率の計算ができます。</li>
+      <li><strong>手順</strong>には、注釈（気をつけること）も付けられます。</li>
+    </ul>
+  </div>
+  <div class="shots">
+    <img class="shot" src="images/new-recipe.jpg" alt="新しいレシピの作成画面" loading="lazy">
+  </div>
+</div>
+<div class="feature">
+  <div class="step-text">
+    <p><strong>似たレシピから作る</strong>: レシピを開いて、右上の「…」→「コピーして新規作成」を押すと、材料と手順が入った状態で作り始められます。期間限定のメニューなど、少しだけ違うレシピを作るときに便利です。</p>
+    <p><strong>直す</strong>: レシピを開いて、右上の「編集」を押します。</p>
+    <ul>
+      <li>「保存」を押すと、すぐにスタッフ全員のアプリに届きます。</li>
+      <li>途中までのときは「下書き保存」。下書きは管理タブの「下書き」にあり、一覧には出ません。</li>
+      <li>同じレシピをほかの人が先に保存していたときは、「〇〇さんが先に保存しました」と出ます。内容を見てから、もう一度直してください。</li>
+      <li>保存には電波が必要です。電波がないと「保存できませんでした」と出ますが、入れた内容は残っているので、電波のあるところでもう一度「保存」を押してください。</li>
+    </ul>
+    <p><strong>しまう・消す</strong>: 「…」→「アーカイブへ移す」で一覧から隠せます（期間限定が終わったメニューなど）。「削除」はゴミ箱に移すだけで、30日以内なら元に戻せます。</p>
+  </div>
+  <div class="shots">
+    <img class="shot" src="images/menu.jpg" alt="「…」を押すと「コピーして新規作成」「アーカイブへ移す」「削除」が出る" loading="lazy">
+    <img class="shot" src="images/copy.jpg" alt="コピーして作り始めた画面。メニュー名に（コピー）が付いている" loading="lazy">
+  </div>
+</div>
+
+<h2 id="manual">マニュアル</h2>
+<div class="feature">
+  <div class="step-text">
+    <p>お店の作業の手順をまとめたものです。グループ（立ち上げ作業・営業中・締め作業など）ごとに並んでいます。</p>
+    <p>探し方・見かた・作り方は、レシピとほとんど同じです。検索では、タイトルと手順の文の両方から探せます。</p>
+  </div>
+  <div class="shots">
+    <img class="shot" src="images/manual.jpg" alt="マニュアルの詳しい画面。手順に番号と注釈が付いている" loading="lazy">
+  </div>
+</div>
+
+<h2 id="coffee">コーヒー</h2>
+<div class="feature">
+  <div class="step-text">
+    <p>「淹れ方」「豆」「基礎知識」の3つに分かれています。行を押すと中が開きます。開いたままにしておくと、次に開いたときも開いたままです。</p>
+    <ul>
+      <li><strong>淹れ方</strong>: ハンドドリップ・エスプレッソなどの手順とお店の数字</li>
+      <li><strong>豆</strong>: 豆ごとの焙煎度・味のカード</li>
+      <li><strong>基礎知識</strong>: 豆の保存や挽き方などの知識</li>
+    </ul>
+  </div>
+  <div class="shots">
+    <img class="shot" src="images/coffee.jpg" alt="コーヒーのタブ。淹れ方と基礎知識が開いている" loading="lazy">
+  </div>
+</div>
+
+<h2 id="manage">管理</h2>
+<div class="feature">
+  <div class="step-text">
+    <ul>
+      <li><strong>ニックネーム</strong>: 自分のニックネームを直せます。</li>
+      <li><strong>最後に更新</strong>: 押すと、今すぐ最新の内容を読み込みます。</li>
+      <li><strong>下書き</strong>: 「下書き保存」したレシピ・マニュアル。</li>
+      <li><strong>アーカイブ</strong>: 一覧から隠したもの。「一覧に戻す」で元に戻せます。</li>
+      <li><strong>カテゴリ・グループの管理</strong>: 追加・名前や色の変更・並べ替え。</li>
+      <li><strong>ゴミ箱</strong>: 削除したもの。30日たつと完全に消えます。</li>
+      <li><strong>要望・お問い合わせ</strong>（いちばん下）: 困ったこと・ほしい機能を送れます。</li>
+    </ul>
+    <p class="updated">「見るだけの人」には、整理のための項目は出ません。</p>
+  </div>
+  <div class="shots">
+    <img class="shot wide" src="images/manage.jpg" alt="管理タブの、下書き・アーカイブ・カテゴリの管理の行" loading="lazy">
+  </div>
+</div>
+
+<h2 id="tips">便利な使い方（Tips）</h2>
+<p>ボタンが見えていないけれど、知っておくと便利な操作です。</p>
+<div class="card">
+<dl class="tips">
+  <dt>長押しして動かすと、順番を変えられる</dt>
+  <dd>作成・編集画面の材料と手順は、行を長押ししたまま上下に動かすと並べ替えられます。下の「並べ替え・削除」を押してから、右のつまみで動かすこともできます。</dd>
+  <dt>左にスワイプすると、行を消せる</dt>
+  <dd>作成・編集画面の材料・手順の行は、左にスワイプすると「削除」が出ます。写真から読み取ったあとの、いらない行も同じように消せます。</dd>
+  <dt>一覧で長押しすると、すぐお気に入りに入れられる</dt>
+  <dd>レシピやマニュアルの一覧で行を長押しすると、開かずに「お気に入りに追加」できます。レシピなら「コピーして新規作成」も出ます。</dd>
+  <dt>材料名はキーボードの上から選べる</dt>
+  <dd>材料名を入れているとき、キーボードのすぐ上に、よく使う材料名が出ます。押すとそのまま入り、分量の欄に移ります。分量の欄では「g」「ml」「大さじ」などの単位のボタンが出ます。数字以外を書きたいときは「文字で入力」を押すと、ふつうのキーボードに変わります。</dd>
+  <dt>材料名の欄で改行のキーを押すと、分量の欄へ</dt>
+  <dd>キーボードの右下の「次へ」を押すと、同じ行の分量の欄に移ります。</dd>
+  <dt>作成画面を下にスワイプして閉じても、続きが残る</dt>
+  <dd>作っている途中で画面を下にスワイプして閉じても、もう一度開くと続きから書けます（アプリを終了するまで）。とっておきたいときは「下書き保存」を押してください。</dd>
+  <dt>写真を押すと、大きく見られる</dt>
+  <dd>レシピ・マニュアル・コーヒーの写真や手順の写真は、押すと画面いっぱいに出ます。</dd>
+  <dt>一覧を下に引っ張ると、最新になる</dt>
+  <dd>ほかの人が直したばかりのレシピがまだ出ていないときは、一覧を下に引っ張ってください。管理タブの「最後に更新」を押しても読み込めます。</dd>
+  <dt>下書き・アーカイブ・ゴミ箱もスワイプで</dt>
+  <dd>下書きの一覧では、左にスワイプで削除。アーカイブでは、左にスワイプで「一覧に戻す」。ゴミ箱では、右にスワイプで「元に戻す」、左にスワイプで「完全に削除」です。</dd>
+  <dt>調理モードは左右にスワイプで進む</dt>
+  <dd>手がふさがっているときは、画面を左右にさっとなでるだけで、次の手順・前の手順に移れます。</dd>
+</dl>
+</div>
+
+<h2 id="trouble">困ったとき</h2>
+<div class="card">
+<dl>
+  <dt>電波がないところで使えますか？</dt>
+  <dd>一度読み込んだ内容は見られます。作ったり直したりして保存するときは、電波が必要です。</dd>
+  <dt>iPhone を買い替えました。</dt>
+  <dd>同じ Apple ID で iCloud にサインインしていれば、アプリを入れ直すだけでそのまま使えます。もう一度申請しなくて大丈夫です。</dd>
+  <dt>間違えて消してしまいました。</dt>
+  <dd>管理タブの「ゴミ箱」から、30日以内なら元に戻せます。</dd>
+  <dt>ほかにも困ったことがあります。</dt>
+  <dd><a href="index.html">サポート</a>のよくある質問を見るか、アプリの管理タブの「要望・お問い合わせ」から送ってください。</dd>
+</dl>
+</div>
+
+<nav><a href="index.html">サポート</a><a href="guide.html">使い方</a><a href="privacy.html">プライバシーポリシー</a></nav>
+</main>
+</body>
+</html>
